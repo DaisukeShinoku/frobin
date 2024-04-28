@@ -10,7 +10,6 @@ AllCops:
     - "config/application.rb"
     - "config/environments/production.rb"
     - "bin/bundle"
-    - "Gemfile"
 
 Style/StringLiterals:
   Enabled: true
