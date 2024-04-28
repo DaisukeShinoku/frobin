@@ -15,6 +15,9 @@ Style/StringLiterals:
   Enabled: true
   EnforcedStyle: double_quotes
 
+Style/Documentation:
+  Enabled: false
+
 Layout/SpaceInsidePercentLiteralDelimiters:
   Exclude:
     - "Gemfile"
