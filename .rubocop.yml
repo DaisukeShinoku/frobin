@@ -14,3 +14,7 @@ AllCops:
 Style/StringLiterals:
   Enabled: true
   EnforcedStyle: double_quotes
+
+Layout/SpaceInsidePercentLiteralDelimiters:
+  Exclude:
+    - "Gemfile"
