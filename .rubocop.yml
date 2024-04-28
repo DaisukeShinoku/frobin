@@ -1,1 +1,17 @@
 inherit_from: .rubocop_todo.yml
+
+inherit_mode:
+  merge:
+    - Exclude
+
+AllCops:
+  Exclude:
+    - "db/schema.rb"
+    - "config/application.rb"
+    - "config/environments/production.rb"
+    - "bin/bundle"
+    - "Gemfile"
+
+Style/StringLiterals:
+  Enabled: true
+  EnforcedStyle: double_quotes
