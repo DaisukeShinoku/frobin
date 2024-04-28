@@ -9,6 +9,7 @@ AllCops:
     - "db/schema.rb"
     - "config/application.rb"
     - "config/environments/**/*"
+    - "config/puma.rb"
     - "bin/bundle"
 
 Style/StringLiterals:
