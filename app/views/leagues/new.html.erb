@@ -1,0 +1,15 @@
+<div>
+  <h1>New League</h1>
+  <%= form_for @league do |f| %>
+    <div>
+      <%= f.label :name %>
+      <%= f.text_field :name %>
+    </div>
+    <div>
+      <%= f.submit %>
+    </div>
+  <% end %>
+  <div>
+    <%= link_to "Back", leagues_path %>
+  </div>
+</div>
