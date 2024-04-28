@@ -1,0 +1,32 @@
+inherit_from: .rubocop_todo.yml
+
+inherit_mode:
+  merge:
+    - Exclude
+
+AllCops:
+  Exclude:
+    - "db/schema.rb"
+    - "config/application.rb"
+    - "config/environments/**/*"
+    - "config/puma.rb"
+    - "bin/bundle"
+
+Style/StringLiterals:
+  Enabled: true
+  EnforcedStyle: double_quotes
+
+Style/Documentation:
+  Enabled: false
+
+Layout/SpaceInsidePercentLiteralDelimiters:
+  Exclude:
+    - "Gemfile"
+
+Style/BlockComments:
+  Exclude:
+    - "spec/spec_helper.rb"
+
+Style/SymbolArray:
+  Exclude:
+    - "config/initializers/filter_parameter_logging.rb"
