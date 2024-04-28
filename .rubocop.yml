@@ -18,3 +18,7 @@ Style/StringLiterals:
 Layout/SpaceInsidePercentLiteralDelimiters:
   Exclude:
     - "Gemfile"
+
+Style/BlockComments:
+  Exclude:
+    - "spec/spec_helper.rb"
